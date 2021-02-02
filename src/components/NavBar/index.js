@@ -1,80 +1,23 @@
-import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
-MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from "react";
 
-class NavbarPage extends Component {
-state = {
-  isOpen: false
-};
-
-toggleCollapse = () => {
-  this.setState({ isOpen: !this.state.isOpen });
-}
-
-render() {
+function NavBar(props) {
   return (
-    <Router>
-      <MDBNavbar className="bg-pink bg-lighten-2" color="default-color" dark expand="md">
-        <MDBNavbarBrand>
-          <strong className="white-text">Navbar</strong>
-        </MDBNavbarBrand>
-        <MDBNavbarToggler onClick={this.toggleCollapse} />
-        <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-          <MDBNavbarNav left>
-            <MDBNavItem active>
-              <MDBNavLink to="#!">Home</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#!">Features</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink to="#!">Pricing</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <div className="d-none d-md-inline">Dropdown</div>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu className="dropdown-default">
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
-            </MDBNavItem>
-          </MDBNavbarNav>
-          <MDBNavbarNav right>
-            <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="twitter" />
-              </MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBNavLink className="waves-effect waves-light" to="#!">
-                <MDBIcon fab icon="google-plus-g" />
-              </MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
-              <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <MDBIcon icon="user" />
-                </MDBDropdownToggle>
-                <MDBDropdownMenu className="dropdown-default">
-                  <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown>
-            </MDBNavItem>
-          </MDBNavbarNav>
-        </MDBCollapse>
-      </MDBNavbar>
-    </Router>
-    );
-  }
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <a className="navbar-brand" href="#">Navbar</a>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div className="navbar-nav">
+        <a className="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <a className="nav-item nav-link" href="#">Features</a>
+        <a className="nav-item nav-link" href="#">Pricing</a>
+        <a className="nav-item nav-link disabled" href="#">Disabled</a>
+      </div>
+    </div>
+  </nav>
+
+  );
 }
 
-export default NavbarPage;
+export default NavBar;
