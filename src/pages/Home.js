@@ -1,24 +1,12 @@
 import React from "react";
 import "./style.css";
-import "./mysass.scss";
-import me from "../assets/images/me.jpg"
-// import {
-//     TweenMax,
-//     Expo,
-//     Back
-// } from "gsap";
+import me from "../assets/images/me.jpg";
+import Button from "../components/Button";
 
 
 function Home() {
 
-//     var $button = document.querySelector('.button');
-// $button.addEventListener('click', function() {
-//   var duration = 0.3,
-//       delay = 0.08;
-//   TweenMax.to($button, duration, {scaleY: 1.6, ease: Expo.easeOut});
-//   TweenMax.to($button, duration, {scaleX: 1.2, scaleY: 1, ease: Back.easeOut, easeParams: [3], delay: delay});
-//   TweenMax.to($button, duration * 1.25, {scaleX: 1, scaleY: 1, ease: Back.easeOut, easeParams: [6], delay: delay * 3 });
-// });
+
 
     return(
         <div>
@@ -37,9 +25,7 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-                <div class="button">
-                    <p>Click me</p>
-                </div>
+                <Button />
             </div>
 
         </div>
