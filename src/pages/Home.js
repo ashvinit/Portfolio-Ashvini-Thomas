@@ -6,13 +6,6 @@ import PortfolioBtn from "../components/PortfolioBtn";
 
 function Home() {
 
-    function handlePortfolioClick(event) {
-        event.preventDefault();
-        window.location.href = "/portfolio";
-    }
-
-
-
     return(
         <div>
             <div className="row">
@@ -26,11 +19,11 @@ function Home() {
                     </h4>
                 </div>
                 <div className="image col-6">
-                    <img className="my-image" src={me} />
+                    <img className="my-image" src={me} alt={""}/>
                 </div>
             </div>
             <div className="row">
-                <PortfolioBtn onClick={handlePortfolioClick} />
+                <PortfolioBtn />
             </div>
 
         </div>
