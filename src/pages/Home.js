@@ -2,6 +2,8 @@ import React from "react";
 import "./style.css";
 import me from "../assets/images/me.jpg";
 import PortfolioBtn from "../components/PortfolioBtn";
+import AboutMeBtn from "../components/AboutMeBtn";
+import ContactBtn from "../components/ContactBtn";
 
 
 function Home() {
@@ -23,7 +25,9 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-                <PortfolioBtn />
+                <div className="image col-4"><PortfolioBtn /></div>
+                <div className="image col-4"><ContactBtn /></div>
+                <div className="image col-4"><AboutMeBtn /></div>
             </div>
 
         </div>
