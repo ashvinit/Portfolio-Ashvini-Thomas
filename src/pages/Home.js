@@ -1,10 +1,15 @@
 import React from "react";
 import "./style.css";
 import me from "../assets/images/me.jpg";
-import Button from "../components/Button";
+import PortfolioBtn from "../components/PortfolioBtn";
 
 
 function Home() {
+
+    function handlePortfolioClick(event) {
+        event.preventDefault();
+        window.location.href = "/portfolio";
+    }
 
 
 
@@ -25,7 +30,7 @@ function Home() {
                 </div>
             </div>
             <div className="row">
-                <Button />
+                <PortfolioBtn onClick={handlePortfolioClick} />
             </div>
 
         </div>
