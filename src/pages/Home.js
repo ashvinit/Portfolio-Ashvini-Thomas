@@ -11,6 +11,9 @@ function Home() {
     return(
         <div>
             <div className="row">
+                <div className="head col-12">
+                    <h1 style={{fontSize:"100px"}}>at</h1>
+                </div>
                 <div className="text col-6">
                     <h3>
                         Hey there, I'm Ashvini Thomas!
@@ -29,7 +32,6 @@ function Home() {
                 <div className="image col-4"><ContactBtn /></div>
                 <div className="image col-4"><AboutMeBtn /></div>
             </div>
-
         </div>
     );
 }
