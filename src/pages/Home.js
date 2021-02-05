@@ -1,36 +1,23 @@
 import React from "react";
-import "./style.css";
+import "./home.css";
 import me from "../assets/images/me.jpg";
-import PortfolioBtn from "../components/PortfolioBtn";
-import AboutMeBtn from "../components/AboutMeBtn";
-import ContactBtn from "../components/ContactBtn";
+import Button from "../components/Button";
 
 
 function Home() {
 
     return(
         <div>
-            <div className="row">
-                <div className="head col-12">
-                    <h1 style={{fontSize:"100px"}}>at</h1>
-                </div>
-                <div className="text col-6">
-                    <h3>
-                        Hey there, I'm Ashvini Thomas!
-                    </h3>
-                    <h4>
-                        I am a Full Stack Web Developer <br />
-                        with a background in Information Technology and Informatics.
-                    </h4>
-                </div>
-                <div className="image col-6">
-                    <img className="my-image" src={me} alt={""}/>
-                </div>
-            </div>
-            <div className="row">
-                <div className="image col-4"><PortfolioBtn /></div>
-                <div className="image col-4"><ContactBtn /></div>
-                <div className="image col-4"><AboutMeBtn /></div>
+            <p className="title">ashvini thomas.</p>
+            <img className="my-image" src={me} alt={""} />
+            <p className="text">
+                Hi there! <br />
+                I'm a Full Stack Web Developer. <br />
+            </p>
+            <div className="inline">
+                <Button id="portfolio" button="Portfolio" />
+                <Button id="contact" button="Contact" />
+                <Button id="aboutme" button="About Me" />
             </div>
         </div>
     );

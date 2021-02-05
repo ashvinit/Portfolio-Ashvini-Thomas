@@ -1,0 +1,39 @@
+/* HOME PAGE */
+
+* {
+    background-color: #e75480;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    height: 100px;
+    margin-top: 3%;
+    font-size: 5rem;
+}
+
+.text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1rem;
+}
+
+.my-image {
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inline {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+}
