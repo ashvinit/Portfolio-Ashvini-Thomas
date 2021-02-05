@@ -15,9 +15,9 @@ function Home() {
                 I'm a Full Stack Web Developer. <br />
             </p>
             <div className="inline">
-                <Button id="portfolio" button="Portfolio" />
-                <Button id="contact" button="Contact" />
-                <Button id="aboutme" button="About Me" />
+                <Button id="portfolio" button="portfolio" />
+                <Button id="contact" button="contact" />
+                <Button id="aboutme" button="aboutme" />
             </div>
         </div>
     );
