@@ -1,5 +1,4 @@
 .button {
-  background: #20B2AA;
   width: 150px;
   padding: 4px 0;
   transform: translateX(-50%) translateY(-50%);
@@ -14,7 +13,7 @@
       text-transform: uppercase;
       color: #FFF;
       user-select: none;
-      background-color: #20B2AA;
+
       margin-top: 10%;
       font-size: 1vw;
     }
@@ -35,3 +34,4 @@
       bottom: -30px;
     }
   }
+
