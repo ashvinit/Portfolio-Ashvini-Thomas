@@ -40,3 +40,8 @@ body {
     width: 100%;
     height: fit-content;
 }
+
+.work {
+    width: 100%;
+    margin-left: 5%;
+}
