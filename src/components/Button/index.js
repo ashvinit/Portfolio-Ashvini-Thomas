@@ -1,5 +1,5 @@
 import React from 'react';
-import './sass.scss';
+import './button.scss';
 import {
     TweenMax,
     Expo
