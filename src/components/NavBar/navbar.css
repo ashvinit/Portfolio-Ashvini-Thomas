@@ -1,0 +1,19 @@
+.navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pages {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    height: 100px;
+    margin-top: 5%;
+    font-size: 3vw;
+}
+
+.pages:hover {
+    color: #cc0099;
+}
+
