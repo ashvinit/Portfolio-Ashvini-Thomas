@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import NavBar from "../components/NavBar";
+import MiniBrowser from "../components/MiniBrowser";
 
 
 function Portfolio() {
@@ -8,6 +9,7 @@ function Portfolio() {
         <div>
             <p className="title">ashvini thomas.</p>
             <NavBar />
+            <MiniBrowser />
 
 
             
