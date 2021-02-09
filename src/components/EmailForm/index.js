@@ -10,3 +10,5 @@ class EmailForm extends React.Component {
         )
     }
 }
+
+export default EmailForm;
