@@ -2,6 +2,8 @@
 
 body {
     background-image: url("../assets/images/sky.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .title {
