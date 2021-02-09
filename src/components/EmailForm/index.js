@@ -55,7 +55,7 @@ class EmailForm extends React.Component {
 
     render() {
         return (
-            <div className="container" style={{width:"600px", height:"700px"}}>
+            <div className="container" style={{width:"600px", height:"fit-content"}}>
                 <p className="heading">contact me.</p>
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     {/* name */}
@@ -71,7 +71,7 @@ class EmailForm extends React.Component {
                     <label for="message">Message:</label> <br/>
                     <textarea value={this.state.message} onChange={this.handleChange.bind(this, 'message')} id="message" name="message" placeholder="Message"></textarea> <br/>
                     {/* Send */}
-                    <input type="submit" value="Send"></input>
+                    <input type="submit" value="Send" style={{margin: "3% 0"}}></input>
                 </form>
             </div>
         )
