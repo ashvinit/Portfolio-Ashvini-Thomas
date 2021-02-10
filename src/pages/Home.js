@@ -17,7 +17,7 @@ function Home() {
             <div className="inline">
                 <Button id="portfolio" button="portfolio" />
                 <Button id="contact" button="contact" />
-                <Button id="aboutme" button="aboutme" />
+                {/* <Button id="aboutme" button="aboutme" /> */}
             </div>
         </div>
     );
