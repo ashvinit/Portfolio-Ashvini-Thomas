@@ -9,7 +9,6 @@ function Contact() {
             <p className="title">ashvini thomas.</p>
             <NavBar />
             <EmailForm />
-            
         </div>
 
     );
