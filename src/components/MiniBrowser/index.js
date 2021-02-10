@@ -2,6 +2,7 @@ import React from "react";
 import "./miniBrowser.css";
 
 
+
 class MiniBrowser extends React.Component {
 
     render() {
@@ -27,6 +28,7 @@ class MiniBrowser extends React.Component {
                 <div>
                     <img className="projects" src={this.props.src} alt={""} />
                 </div>
+                <a href={this.props.href} target="_blank" className="fa fa-github"></a>
             </div>
         )
 
