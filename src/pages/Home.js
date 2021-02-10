@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
-import me from "./assets/images/me.jpg";
-import Button from "./components/Button";
+import me from "../assets/images/me.jpg";
+import Button from "../components/Button";
 
 
 function Home() {
