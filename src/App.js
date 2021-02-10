@@ -7,16 +7,16 @@ import Portfolio from "./pages/Portfolio";
 
 function App () {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
         <Switch>
           <Route exact path="/" component={Home} />       
           <Route exact path="/portfolio" component={Portfolio} /> 
           <Route exact path="/contact" component={Contact} />
           {/* <Route exact path="/aboutme" component={AboutMe} /> */}
         </Switch>
+      </Router>
       </div>
-    </Router>
   );
 }
 
