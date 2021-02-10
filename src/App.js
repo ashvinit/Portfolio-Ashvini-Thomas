@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import AboutMe from "./pages/AboutMe";
+// import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
@@ -13,7 +13,7 @@ function App () {
           <Route exact path="/" component={Home} />       
           <Route exact path="/portfolio" component={Portfolio} /> 
           <Route exact path="/contact" component={Contact} />
-          <Route exact path="/aboutme" component={AboutMe} />
+          {/* <Route exact path="/aboutme" component={AboutMe} /> */}
         </Switch>
       </div>
     </Router>
