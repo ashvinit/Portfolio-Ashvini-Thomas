@@ -20,16 +20,51 @@ function Portfolio() {
             <p className="title">ashvini thomas.</p>
             <NavBar />
             <div className="work">
-                <MiniBrowser className="browser" href="https://github.com/AnjaliKevadiya/phone-eats-first" value="https://phone-eats-first.herokuapp.com/" src={project3}/>
-                <MiniBrowser className="browser" href="https://github.com/ashvinit/fitnessTracker" value="https://fitness-tracker-at.herokuapp.com/" src={fitness}/>
+                <MiniBrowser 
+                    className="browser" 
+                    href="https://github.com/AnjaliKevadiya/phone-eats-first"
+                    link="https://phone-eats-first.herokuapp.com/"  
+                    value="https://phone-eats-first.herokuapp.com/" 
+                    src={project3}
+                />
+                <MiniBrowser 
+                    className="browser" 
+                    href="https://github.com/ashvinit/fitnessTracker" 
+                    link="https://fitness-tracker-at.herokuapp.com/" 
+                    value="https://fitness-tracker-at.herokuapp.com/" 
+                    src={fitness}
+                />
             </div>
             <div className="work">
-                <MiniBrowser className="browser" href="https://github.com/ashvinit/burger" value="https://burger-at.herokuapp.com/" src={burger}/>
-                <MiniBrowser className="browser" href="https://github.com/ashvinit/userDirectory" value="https://ashvinit.github.io/userDirectory/" src={userDir}/>
+                <MiniBrowser className="browser" 
+                    href="https://github.com/ashvinit/burger" 
+                    link="https://burger-at.herokuapp.com/" 
+                    value="https://burger-at.herokuapp.com/" 
+                    src={burger}
+                />
+                <MiniBrowser 
+                    className="browser" 
+                    href="https://github.com/ashvinit/userDirectory" 
+                    link="https://ashvinit.github.io/userDirectory/" 
+                    value="https://ashvinit.github.io/userDirectory/" 
+                    src={userDir}
+                />
             </div> 
             <div className="work">
-                <MiniBrowser className="browser" href="https://github.com/ashvinit/noteTaker" value="https://note-taker-at.herokuapp.com/" src={noteTaker}/>
-                <MiniBrowser className="browser" href="https://github.com/ashvinit/dayPlanner" value="https://ashvinit.github.io/dayPlanner/" src={planner}/>
+                <MiniBrowser 
+                    className="browser" 
+                    href="https://github.com/ashvinit/noteTaker" 
+                    link="https://note-taker-at.herokuapp.com/" 
+                    value="https://note-taker-at.herokuapp.com/"
+                    src={noteTaker}
+                />
+                <MiniBrowser 
+                    className="browser" 
+                    href="https://github.com/ashvinit/dayPlanner" 
+                    link="https://ashvinit.github.io/dayPlanner/" 
+                    value="https://ashvinit.github.io/dayPlanner/" 
+                    src={planner}
+                />
             </div> 
         </div>
 

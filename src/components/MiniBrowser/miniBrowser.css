@@ -80,9 +80,26 @@
     margin-bottom: 5%;
     color: white;
     font-size: 50px;
+    margin-left: 45%;
+    margin-right: 55%;
 }
 
 .fa-github:hover {
     text-decoration: inherit;
     color: #441E5A;
+}
+
+img {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgb(145, 92, 182);
+  border-radius: 4px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }

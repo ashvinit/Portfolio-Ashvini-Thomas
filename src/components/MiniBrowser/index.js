@@ -26,7 +26,7 @@ class MiniBrowser extends React.Component {
                     </div>
                 </div>
                 <div>
-                    <img className="projects" src={this.props.src} alt={""} />
+                    <a href={this.props.link} className="deployed"><img className="projects" src={this.props.src} alt={""} /></a>
                 </div>
                 <a href={this.props.href} target="_blank" className="fa fa-github"></a>
             </div>
