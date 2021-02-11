@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 // import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -10,7 +10,7 @@ function App () {
 
   return (
     <div>
-        <HashRouter basename="/">
+        <Router>
           <Switch>
             <Route 
               exact path="/" 
@@ -23,9 +23,9 @@ function App () {
             <Route 
             path="/contact" 
             component={Contact} />
-            {/* <Route exact path="/aboutme" component={AboutMe} /> */}
+            {/* <Route path="/aboutme" component={AboutMe} /> */}
           </Switch>
-        </HashRouter>
+        </Router>
       </div>
   );
 }
