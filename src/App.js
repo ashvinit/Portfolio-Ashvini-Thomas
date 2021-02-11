@@ -17,11 +17,11 @@ function App () {
               component={Home} 
             />       
             <Route 
-              exact path="/portfolio" 
+              path="/portfolio" 
               component={Portfolio} 
               /> 
             <Route 
-            exact path="/contact" 
+            path="/contact" 
             component={Contact} />
             {/* <Route exact path="/aboutme" component={AboutMe} /> */}
           </Switch>
