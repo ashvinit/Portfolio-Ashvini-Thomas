@@ -9,7 +9,7 @@ import Portfolio from "./pages/Portfolio";
 function App () {
 
   return (
-      <Router basename="/">
+      <Router>
         <Switch>
           <Route 
             exact path="/" 
