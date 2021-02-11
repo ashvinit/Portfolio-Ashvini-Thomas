@@ -13,16 +13,17 @@ function App () {
         <Router>
           <Switch>
             <Route 
-              exact path="portfolio-ashvini-thomas/#/" 
+              exact path="/" 
               component={Home} 
             />       
             <Route 
-              path="portfolio-ashvini-thomas/#/portfolio" 
+              exact path="/portfolio" 
               component={Portfolio} 
-              /> 
+            /> 
             <Route 
-            path="portfolio-ashvini-thomas/#/contact" 
-            component={Contact} />
+              exact path="/contact" 
+              component={Contact}
+            />
             {/* <Route path="/aboutme" component={AboutMe} /> */}
           </Switch>
         </Router>
