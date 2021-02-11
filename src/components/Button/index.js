@@ -20,7 +20,7 @@ class PortfolioBtn extends React.Component {
         }
 
         var page = this.props.button.split(" ").join("");
-        let loginPath = (process.env.NODE_ENV === 'production') ? "https://ashvinit.github.io/portfolio-ashvini-thomas/#" : "http://localhost:3000";
+        let loginPath = (process.env.NODE_ENV === 'production') ? "https://ashvinit.github.io/portfolio-ashvini-thomas/#" : "http://localhost:3000/portfolio-ashvini-thomas/#";
 
         function goToPage (event) {
             event.preventDefault();
