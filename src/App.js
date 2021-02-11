@@ -4,6 +4,7 @@ import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
+import ReactDOM from "react-dom";
 
 function App () {
 
@@ -20,7 +21,7 @@ if (hash) {
         <Switch>
           <Route 
             exact path="/" 
-            render={props => <Index {...props} />} 
+            render={props => <Home {...props} />} 
             component={Home} 
           />       
           <Route 
