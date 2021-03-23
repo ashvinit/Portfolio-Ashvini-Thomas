@@ -57,6 +57,7 @@ class EmailForm extends React.Component {
         return (
             <div className="container" style={{width:"600px", height:"fit-content"}}>
                 <p className="heading">contact me.</p>
+                <p classname="info">ashvinithomas@gmail.com</p>
                 <form onSubmit={this.handleSubmit.bind(this)}>
                     {/* name */}
                     <label for="name">Full Name:</label> <br/>
