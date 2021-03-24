@@ -6,8 +6,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
 .heading {
     font-family: 'Dancing Script', cursive;
     color: white;
@@ -17,15 +15,14 @@
     font-size: 5vw;
 }
 
-.info {
-    font-family: 'Dancing Script', cursive;
+.subheading {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     text-align: center;
     text-shadow: 2px 2px 4px #000000;
     margin-top: 3%;
-    font-size: 3vw;
+    font-size: 2vw;
 }
-
 
 
 label {
